@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(25, 189, 96);
+}
+.container{
+    height: 420px;
+    border: 2px solid white;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:end;
+    gap:20px;
+    align-items:baseline;
+}
+
+.child1,.child2,.child3,.child4,.child5{
+    height: 355px;
+    border: 1px solid green;
+    width:150px;
+    display: inline-block;
+}
+.child1{
+    background-color: aqua;
+    flex-basis: 50%;
+}
+.child2{
+    background-color:aquamarine;
+}
+.child3{
+    background-color: rgb(138, 17, 130);
+}
+.child4{
+    background-color: rgb(123, 176, 30);
+}
+.child5{
+    background-color: rgb(210, 103, 36);
+}
