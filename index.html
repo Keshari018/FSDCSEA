@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bulb Images</title>
+    <style>
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #container img {
+            width: 60px;
+            height: 80px;
+            margin: 40px;
+        }
+        input{
+            height: 40px;
+            width: 200px;
+            margin:10px
+        }
+        #box{
+            width: 1000px;
+            height: 600px;
+            margin-left:300px;
+            margin-top:50px;
+            background-color:violet;
+        }
+        #Btn{
+            width:100px;
+            height:40px;
+        }
+        #Btn:hover{
+            background-color: blue;
+            color:white;
+            width:100px;
+        }
+        .checkbox{
+            width:20px;
+        }
+
+
+
+    </style>
 </head>
-<body>
-    <h2>Hello, Git work</h2>
-    <table border="2" width="100%" height="1000px">
-        <thead>
-            <a href="#Java">Java Programming</a><br>
-            <a href="#apython">python Programming</a>
-        </thead>
+<body >
+    <div id="box">
+      <input type="number" id="numBulbs" placeholder="Enter number of bulbs">
+      <button id="Btn">Search</button>
+    <div id="container"></div>
+    </div>
 
-        <tbody>
-        <tr>
-        <td colspan="2">Main header</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="registration.html" target="myframe">Login Form</a><br><br>
-                <a href="registration2.html" target="myframe">Registration Form</a>
-            </td>
-            <td>
-                <iframe name="myframe" height="800" width="100%" style="background-color:blue"></iframe>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">footer</td>
-        </tr>
-        </tbody>
-        <tfoot>
-            <h2>About Java</h2>
-        </tfoot>
-    </table>
-    <p id="Java">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus maxime, aperiam rem optio odio! Perspiciatis ad aliquid minima quisquam commodi laudantium amet molestias ab sint temporibus assumenda recusandae praesentium, nihil quam aliquam explicabo repudiandae, perferendis eaque saepe sunt inventore quasi repellat. Voluptate distinctio sunt cumque recusandae, sit ab esse? Nesciunt a deleniti ab incidunt, tempore nostrum reiciendis tenetur accusamus esse odio quibusdam ducimus! Doloribus dolor dolore quasi fuga voluptates dicta reiciendis magni veniam soluta temporibus adipisci quod commodi ab consectetur consequuntur nesciunt, eos repellendus neque, iure placeat rem officia voluptatibus? Molestias odio delectus minus maiores laborum mollitia sunt nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, vero? Omnis, libero! Fugiat aliquid excepturi eius vel laborum ad distinctio quas odit, numquam explicabo aspernatur, consequuntur nihil tenetur non sapiente!</p>
-
-
-
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>
