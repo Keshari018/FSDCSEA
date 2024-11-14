@@ -1,0 +1,10 @@
+.icard{
+    border:8px solid brown;
+    height:200px;
+    width:250px;
+    color:black;
+    background-color:white;
+    border-collapse: collapse;
+    margin-left: 380px;
+    padding: 10px;
+}
