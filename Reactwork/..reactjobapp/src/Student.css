@@ -1,10 +1,17 @@
 .icard{
     border:8px solid brown;
-    height:200px;
-    width:250px;
+    height:300px;
+    width:220px;
     color:black;
     background-color:white;
     border-collapse: collapse;
-    margin-left: 380px;
+    margin-left: 100px;
     padding: 10px;
+}
+tr,
+th,
+td {
+  height: 10px;
+  width: 100px;
+  text-align: center;
 }
